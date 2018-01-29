@@ -1,0 +1,54 @@
+start,end,width,data_format,alpha,numeric,field_name
+1,4,4,CH,X,X,Institution Code
+5,9,5,CH,X,X,Filler
+10,11,2,CH,X,X,Department Code
+12,26,15,CH,X,X,Filler
+27,42,16,CH,X,_,Registration Nbr
+43,72,30,CH,X,X,last_name
+73,102,30,CH,X,X,first_name
+103,132,30,CH,X,X,middle_name
+133,187,55,CH,X,X,Address Line 1
+188,242,55,CH,X,X,Address Line 2
+243,297,55,CH,X,X,Address Line 3
+298,352,55,CH,X,X,Address Line 4
+353,382,30,CH,X,X,Address City
+383,388,6,CH,X,X,Address State
+389,391,3,CH,X,_,Address Country
+392,431,40,CH,X,X,Address Country Name
+432,443,12,CH,X,X,Address Postal Code
+444,446,3,CH,X,_,Native Country Code
+447,486,40,CH,X,X,Native Country Name
+487,489,3,CH,X,X,Native Language Code
+490,529,40,CH,X,X,Native Language Name
+530,537,8,CH,X,_,Date of Birth
+538,538,1,CH,X,_,Gender
+539,546,8,CH,X,_,Administration Date
+547,551,5,CH,X,X,Test Center Code
+552,555,4,CH,X,X,Filler
+556,556,1,CH,X,_,Test Type
+557,557,1,CH,X,_,Listening Indicator
+558,558,1,CH,X,_,Speaking Indicator
+559,560,2,CH,X,X,IBT Listening
+561,562,2,CH,X,_,IBT Reading
+563,564,2,CH,X,X,IBT Speaking
+565,566,2,CH,X,_,IBT Writing
+567,569,3,CH,X,X,IBT Total Score
+570,571,2,CH,X,X,Filler
+572,572,1,CH,X,X,Reason for taking TOEFL
+573,573,1,CH,X,X,Degree
+574,575,2,CH,X,X,P/B Section I Score
+576,577,2,CH,X,X,P/B Section II Score
+578,579,2,CH,X,X,P/B Section III Score
+580,581,2,CH,X,X,P/B converted TWE Score
+582,584,3,CH,X,X,Total Score
+585,588,4,CH,X,X,Interpretive Info Year
+589,589,1,CH,X,X,Number of times taken
+590,590,1,CH,X,_,No Resp/Off Topic
+591,665,75,CH,X,X,Email Address
+666,680,15,CH,X,X,Test Center Code
+681,716,36,CH,X,X,Test Center Country
+717,731,15,CH,X,X,Security ID Type
+732,756,25,CH,X,X,Security ID Number
+757,766,10,CH,X,X,Security ID Country
+767,774,08,CH,X,_,Report Date
+775,900,126,CH,X,X,Filler

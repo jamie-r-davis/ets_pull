@@ -1,0 +1,51 @@
+start,end,width,data_format,alpha,numeric,field_name,comments
+001,004,4,CH,,X,Institution Code,
+005,034,30,CH,X,,Institution Name,
+035,036,2,CH,X,,Institution Type,AI (Undergraduate Institution) or DI (Graduate Institution)
+037,040,4,CH,,X,Department Code,0101–5199 Blank if no department indicated.
+041,070,30,CH,X,,Department Name,
+071,074,4,CH,X,X,Intended Graduate Major Field Code,0101–5199 Blank if no department indicated.
+075,104,30,CH,X,X,Intended Graduate Major Field Name,
+105,136,32,CH,X,X,Last Name,
+137,160,24,CH,X,X,First Name,
+161,161,1,CH,X,X,Middle Initial,
+162,193,32,CH,X,X,Address Line 1,
+194,225,32,CH,X,X,Address Line 2,
+226,257,32,CH,X,X,Address Line 3,
+258,287,30,CH,X,X,City,
+288,289,2,CH,X,X,State/Province,
+290,298,9,CH,X,X,ZIP/Postal Code,
+299,328,30,CH,X,X,Country,
+329,331,3,CH,X,X,ISO Country Code,
+332,339,8,CH,X,X,Date of Birth,MMDDCCYY
+340,340,1,CH,X,X,Gender,F = Female M = Male Blank = Not Given
+341,344,4,CH,X,X,Social Security Number,– Last 4 Digits
+345,364,20,CH,X,X,Telephone Number,
+365,409,45,CH,X,X,Email Address,
+410,416,7,CH,X,X,Registration Number,
+417,424,8,CH,X,X,Test Date,MMDDCCYY
+425,426,2,CH,X,X,Test Code,02 03 22 24 27 29 64 68 77 or 81 See test code information on page 9.
+427,446,20,CH,X,X,Test Name,
+447,447,1,CH,X,X,Score Type 1,V=Verbal Q=Quantitative W=Writing S=Subject 1=First Subject subscore 2=Second Subject subscore 3=Third Subject subscore
+448,450,3,CH,X,X,Scaled Score 1,See score range information on page 10.
+451,452,2,CH,X,X,Percentile rank 1,See percentile rank information on page 10.
+453,455,3,CH,X,X,Estimated Current Score 1,See score range information on page 10.
+456,460,5,CH, , ,Filler,Blank
+461,461,1,CH,X,X,Score Type 2,V=Verbal Q=Quantitative W=Writing S=Subject 1=First Subject subscore 2=Second Subject subscore 3=Third Subject subscore
+462,464,3,CH,X,X,Scaled Score 2,See score range information beginning on page 3.
+465,466,2,CH,X,X,Percentile rank 2,See percentile rank information on page 10.
+467,469,3,CH,X,X,Estimated Current Score 2,See score range information on page 10.
+470,474,5,CH, , ,Filler,Blank
+475,475,1,CH,X,X,Score Type 3,V=Verbal Q=Quantitative W=Writing S=Subject 1=First Subject subscore 2=Second Subject subscore 3=Third Subject subscore
+476,478,3,CH,X,X,Scaled Score 3,See score range information on page 10.
+479,480,2,CH,X,X,Percentile rank 3,See percentile rank information on page 10.
+481,488,8,CH, , ,Filler,Blank
+489,489,1,CH,X,X,Score Type 4,V=Verbal Q=Quantitative W=Writing S=Subject 1=First Subject subscore 2=Second Subject subscore 3=Third Subject subscore
+490,492,3,CH,X,X,Scaled Score 4,See score range information on page 10.
+493,494,2,CH,X,X,Percentile rank 4,See percentile rank information on page 10.
+495,526,32,CH, , ,Filler,Blank
+527,530,4,CH,X,X,Examinee Sequence Nbr,Number is unique to this reporting. See note on page 10.
+531,532,2,CH,X,X,Record Serial Number,Number increases with each test administration and department. See note on page 10.
+533,536,4,CH,X,X,Cycle Number,
+537,544,8,CH, ,X,Process Date,MMDDCCYY
+545,600,56,CH, , ,Filler,Blank
