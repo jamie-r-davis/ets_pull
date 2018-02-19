@@ -15,7 +15,10 @@ def parse_response(response):
     if response is None:
         return None
     
-    response_str = response.decode()
+    if isinstance(response, bytes):
+        response_str = response.decode()
+    else:
+        response_str = response
     if response_str.endswith('Please check your username, password.'):
         raise AuthenticationError(response_str.strip())
     elif response_str.startswith('Logon failure'):
