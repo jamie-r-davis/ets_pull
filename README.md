@@ -23,6 +23,7 @@ An easy way to work with the data is with Pandas. This package provides layout f
 
 ```Python
 import datetime as dt
+import io
 import pandas as pd
 import GREService
 
@@ -34,9 +35,13 @@ end_dt = dt.datetime(2018,1,14)
 gre = GREService('username', 'password')
 gre_data = gre.getScoreLinkData(start_dt, end_dt)
 
+# `gre_data` now contains your data as a string. You can save the raw data 
+# to file or convert it into a file-like object in memory, like below:
+data_obj = io.StringIO(gre_data)
+
 # read layout into its own dataframe and use it to read the gre data
 layout = pd.read_csv('path/to/gre_layout.csv')
-df = pd.read_fwf(data, widths=layout.width, names=layout.field_name)
+df = pd.read_fwf(data_obj, widths=layout.width, names=layout.field_name)
 ```
 
 
